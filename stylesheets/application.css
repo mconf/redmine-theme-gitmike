@@ -945,9 +945,8 @@ option {
 
 /* line 406, ../sass/application.scss */
 img.gravatar {
-  -webkit-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.05);
-  -moz-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.05);
-  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.05);
+  padding: 0 !important;
+  border-radius: 3px !important;
 }
 
 /* line 5, ../sass/_wiki.scss */
@@ -1058,39 +1057,39 @@ ul.projects a.project {
   font-size: 1.1em;
 }
 
-/* line 415, ../sass/application.scss */
+/* line 417, ../sass/application.scss */
 div.journal h4 {
   margin-bottom: 0;
 }
-/* line 418, ../sass/application.scss */
+/* line 420, ../sass/application.scss */
 div.journal h4 img.gravatar {
   margin-top: 0;
 }
-/* line 423, ../sass/application.scss */
+/* line 425, ../sass/application.scss */
 div.journal .details {
   padding-left: 40px;
   margin-top: 0;
   list-style-type: none;
 }
 
-/* line 430, ../sass/application.scss */
+/* line 432, ../sass/application.scss */
 #context-menu {
   -webkit-box-shadow: 0 0 3px #CCC;
   -moz-box-shadow: 0 0 3px #CCC;
   box-shadow: 0 0 3px #CCC;
 }
-/* line 432, ../sass/application.scss */
+/* line 434, ../sass/application.scss */
 #context-menu ul li ul {
   -webkit-box-shadow: 0 0 3px #CCC;
   -moz-box-shadow: 0 0 3px #CCC;
   box-shadow: 0 0 3px #CCC;
 }
-/* line 435, ../sass/application.scss */
+/* line 437, ../sass/application.scss */
 #context-menu li:hover {
   border: 1px solid #eee !important;
   background-color: #eee;
 }
-/* line 439, ../sass/application.scss */
+/* line 441, ../sass/application.scss */
 #context-menu ul {
   border-top: 1px solid #DDD;
   border-left: 1px solid #DDD;
@@ -1098,7 +1097,7 @@ div.journal .details {
   border-right: 1px solid #DDD !important;
 }
 
-/* line 447, ../sass/application.scss */
+/* line 449, ../sass/application.scss */
 div.tooltip:hover span.tip {
   border: 1px solid #D9D9D9;
   zoom: 1;
@@ -1107,16 +1106,16 @@ div.tooltip:hover span.tip {
   box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.05);
 }
 
-/* line 454, ../sass/application.scss */
+/* line 456, ../sass/application.scss */
 table.progress td.closed {
   /* background: #AECCD7 none repeat scroll 0%; */
 }
-/* line 457, ../sass/application.scss */
+/* line 459, ../sass/application.scss */
 table.progress td.done {
   /* background: #EAF2F5 none repeat scroll 0%; */
 }
 
-/* line 462, ../sass/application.scss */
+/* line 464, ../sass/application.scss */
 #history div.journal {
   border-bottom: 1px dashed #eee;
   border-top: 0;
@@ -1124,7 +1123,7 @@ table.progress td.done {
 }
 
 /* Modal form*/
-/* line 470, ../sass/application.scss */
+/* line 472, ../sass/application.scss */
 div.modal {
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
@@ -1135,13 +1134,13 @@ div.modal {
   -moz-box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
 }
-/* line 471, ../sass/application.scss */
+/* line 473, ../sass/application.scss */
 div.modal h3.title {
   background: transparent;
   color: inherit;
 }
 
-/* line 481, ../sass/application.scss */
+/* line 483, ../sass/application.scss */
 #modalbg {
   background: white;
   opacity: 0.75;
@@ -1209,12 +1208,12 @@ body.action-login #login-form table {
   font-weight: bold;
 }
 
-/* line 490, ../sass/application.scss */
+/* line 492, ../sass/application.scss */
 div.filters .live_search {
   margin-left: 11px !important;
 }
 
-/* line 494, ../sass/application.scss */
+/* line 496, ../sass/application.scss */
 input.live_search_field {
   -webkit-border-radius: 12px;
   -moz-border-radius: 12px;
@@ -1227,12 +1226,12 @@ input.live_search_field {
   border: 1px solid #C3C3C3;
 }
 
-/* line 502, ../sass/application.scss */
+/* line 504, ../sass/application.scss */
 .live_search input.live_search_field {
   font-size: 12px !important;
 }
 
-/* line 506, ../sass/application.scss */
+/* line 508, ../sass/application.scss */
 label#search_overlabel {
   font-size: 12px !important;
   padding-left: 12px !important;
@@ -1241,42 +1240,42 @@ label#search_overlabel {
   top: 11px !important;
 }
 
-/* line 515, ../sass/application.scss */
+/* line 517, ../sass/application.scss */
 table.contacts.index tbody tr:hover {
   background-color: #EFF5F8 !important;
 }
-/* line 518, ../sass/application.scss */
+/* line 520, ../sass/application.scss */
 table.contacts.index tbody tr.context-menu-selection:hover {
   background-color: #507AAA !important;
 }
 
-/* line 523, ../sass/application.scss */
+/* line 525, ../sass/application.scss */
 h2 span.tag {
   letter-spacing: 0px;
   top: -4px;
   position: relative;
 }
-/* line 527, ../sass/application.scss */
+/* line 529, ../sass/application.scss */
 h2 span.tag a {
   margin-bottom: -1px;
 }
 
-/* line 532, ../sass/application.scss */
+/* line 534, ../sass/application.scss */
 div.filters .live_search {
   letter-spacing: 0px;
 }
 
-/* line 536, ../sass/application.scss */
+/* line 538, ../sass/application.scss */
 label#search_overlabel {
   margin-top: -4px;
 }
 
-/* line 540, ../sass/application.scss */
+/* line 542, ../sass/application.scss */
 .live_search input.live_search_field {
   margin-top: -6px;
 }
 
-/* line 545, ../sass/application.scss */
+/* line 547, ../sass/application.scss */
 span.tag a, span.deal-status {
   color: white;
   text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.25);
@@ -1299,66 +1298,66 @@ span.tag a, span.deal-status {
   -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3);
 }
-/* line 563, ../sass/application.scss */
+/* line 565, ../sass/application.scss */
 span.tag a:hover {
   text-shadow: none;
 }
-/* line 566, ../sass/application.scss */
+/* line 568, ../sass/application.scss */
 span.deal-status a:hover {
   color: black;
   text-shadow: none;
 }
 
-/* line 573, ../sass/application.scss */
+/* line 575, ../sass/application.scss */
 body.controller-contacts #content, body.controller-notes #content, body.controller-contacts_tasks #content, body.controller-contacts_duplicates #content, body.controller-sale_funel #content, body.controller-deals #content {
   margin-right: 340px;
 }
-/* line 576, ../sass/application.scss */
+/* line 578, ../sass/application.scss */
 body.controller-contacts #sidebar, body.controller-notes #sidebar, body.controller-contacts_tasks #sidebar, body.controller-contacts_duplicates #sidebar, body.controller-sale_funel #sidebar, body.controller-deals #sidebar {
   width: 300px !important;
 }
 
-/* line 584, ../sass/application.scss */
+/* line 586, ../sass/application.scss */
 table.invoice-lines tbody tr.line-data:hover {
   background-color: #EFF5F8 !important;
 }
-/* line 587, ../sass/application.scss */
+/* line 589, ../sass/application.scss */
 table.invoice-lines th {
   border: 0px !important;
 }
 
-/* line 593, ../sass/application.scss */
+/* line 595, ../sass/application.scss */
 span.invoice-status.draft {
   background-color: #AAA !important;
 }
-/* line 596, ../sass/application.scss */
+/* line 598, ../sass/application.scss */
 span.invoice-status.sent {
   background-color: #3F8AF7 !important;
 }
-/* line 599, ../sass/application.scss */
+/* line 601, ../sass/application.scss */
 span.invoice-status.paid {
   background-color: green !important;
 }
 
-/* line 606, ../sass/application.scss */
+/* line 608, ../sass/application.scss */
 div#issue-changesets {
   border-left: 1px solid #eee;
 }
-/* line 609, ../sass/application.scss */
+/* line 611, ../sass/application.scss */
 div#issue-changesets div.changeset {
   border-bottom: 1px dashed #eee;
   padding: 15px 10px 5px 10px;
 }
-/* line 613, ../sass/application.scss */
+/* line 615, ../sass/application.scss */
 div#issue-changesets div.changeset.odd {
   background: #FFFFFF;
 }
-/* line 618, ../sass/application.scss */
+/* line 620, ../sass/application.scss */
 div#issue-changesets div.changeset > p {
   font-weight: bold;
 }
 
-/* line 628, ../sass/application.scss */
+/* line 630, ../sass/application.scss */
 table.list th {
   background: #F6F6F6;
   font-size: 13px;
