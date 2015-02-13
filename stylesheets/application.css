@@ -321,29 +321,34 @@ a:link, a:visited {
 
 /* line 260, ../sass/application.scss */
 div.issue {
-  background: #FFD;
+  background: #FFFFFF;
   padding: 20px;
   margin-bottom: 6px;
   border: 1px solid #ddd;
   margin: -11px -11px 15px -11px;
+  border-bottom-width: 4px;
 }
-/* line 266, ../sass/application.scss */
+/* line 268, ../sass/application.scss */
 div.issue.tooltip {
   padding: 6px;
   margin: 0 0 6px 0;
 }
-/* line 271, ../sass/application.scss */
+/* line 273, ../sass/application.scss */
 div.contact.details, div.deal.details {
   padding: 15px !important;
   margin: -11px -11px 6px;
 }
-
 /* line 277, ../sass/application.scss */
+div hr {
+  background: #eee;
+}
+
+/* line 282, ../sass/application.scss */
 #sidebar h3 {
   color: #222;
 }
 
-/* line 281, ../sass/application.scss */
+/* line 286, ../sass/application.scss */
 #footer {
   background-color: #F8F8F8;
   border: 0px;
@@ -352,31 +357,31 @@ div.contact.details, div.deal.details {
   margin-top: 45px;
   padding: 15px;
 }
-/* line 291, ../sass/application.scss */
+/* line 296, ../sass/application.scss */
 #footer .bgl .bgr:after {
   content: " and gitmike theme";
 }
 
-/* line 300, ../sass/application.scss */
+/* line 305, ../sass/application.scss */
 h2, h3, h4 {
   border-bottom: 0px;
 }
 
-/* line 305, ../sass/application.scss */
+/* line 310, ../sass/application.scss */
 .wiki h1, .wiki h2, .wiki h3 {
   border-bottom: 0px;
 }
-/* line 309, ../sass/application.scss */
+/* line 314, ../sass/application.scss */
 .wiki.wiki-page h1 {
   border-bottom: 1px solid #ccc;
 }
-/* line 312, ../sass/application.scss */
+/* line 317, ../sass/application.scss */
 .wiki.wiki-page > h2 {
   border-bottom: 1px solid #ccc;
   padding-bottom: 6px;
 }
 
-/* line 321, ../sass/application.scss */
+/* line 326, ../sass/application.scss */
 #main-menu {
   left: 0px;
   width: 100%;
@@ -389,7 +394,7 @@ h2, h3, h4 {
   position: relative;
   font-size: 13px;
 }
-/* line 338, ../sass/application.scss */
+/* line 343, ../sass/application.scss */
 #main-menu ul {
   *zoom: 1;
   margin-top: 0;
@@ -406,12 +411,12 @@ h2, h3, h4 {
 #main-menu ul:after {
   clear: both;
 }
-/* line 347, ../sass/application.scss */
+/* line 352, ../sass/application.scss */
 #main-menu ul li {
   margin: 0;
   padding: 0;
 }
-/* line 351, ../sass/application.scss */
+/* line 356, ../sass/application.scss */
 #main-menu ul li a {
   background-color: transparent !important;
   display: block;
@@ -425,16 +430,16 @@ h2, h3, h4 {
   line-height: 20px;
   margin-bottom: -2px;
 }
-/* line 365, ../sass/application.scss */
+/* line 370, ../sass/application.scss */
 #main-menu ul li a.selected {
   color: #000;
   border-bottom: 3px solid #D26911 !important;
 }
-/* line 371, ../sass/application.scss */
+/* line 376, ../sass/application.scss */
 #main-menu ul li a.selected:hover {
   color: #000;
 }
-/* line 375, ../sass/application.scss */
+/* line 380, ../sass/application.scss */
 #main-menu ul li a:hover {
   color: #4183C4;
   border-bottom: 3px solid #CFDCE8;
@@ -928,7 +933,7 @@ option {
   font-size: 12px;
 }
 
-/* line 394, ../sass/application.scss */
+/* line 399, ../sass/application.scss */
 .box {
   background-color: #fcfcfc;
   -webkit-border-radius: 8px;
@@ -937,7 +942,7 @@ option {
   padding: 16px;
 }
 
-/* line 400, ../sass/application.scss */
+/* line 405, ../sass/application.scss */
 img.gravatar {
   -webkit-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.05);
   -moz-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.05);
@@ -1052,29 +1057,39 @@ ul.projects a.project {
   font-size: 1.1em;
 }
 
-/* line 407, ../sass/application.scss */
+/* line 414, ../sass/application.scss */
+div.journal h4 {
+  margin-bottom: 0;
+}
+/* line 417, ../sass/application.scss */
+div.journal h4 img.gravatar {
+  margin-top: 0;
+}
+/* line 422, ../sass/application.scss */
 div.journal .details {
-  padding-left: 30px;
+  padding-left: 40px;
+  margin-top: 0;
+  list-style-type: none;
 }
 
-/* line 411, ../sass/application.scss */
+/* line 429, ../sass/application.scss */
 #context-menu {
   -webkit-box-shadow: 0 0 3px #CCC;
   -moz-box-shadow: 0 0 3px #CCC;
   box-shadow: 0 0 3px #CCC;
 }
-/* line 413, ../sass/application.scss */
+/* line 431, ../sass/application.scss */
 #context-menu ul li ul {
   -webkit-box-shadow: 0 0 3px #CCC;
   -moz-box-shadow: 0 0 3px #CCC;
   box-shadow: 0 0 3px #CCC;
 }
-/* line 416, ../sass/application.scss */
+/* line 434, ../sass/application.scss */
 #context-menu li:hover {
   border: 1px solid #eee !important;
   background-color: #eee;
 }
-/* line 420, ../sass/application.scss */
+/* line 438, ../sass/application.scss */
 #context-menu ul {
   border-top: 1px solid #DDD;
   border-left: 1px solid #DDD;
@@ -1082,7 +1097,7 @@ div.journal .details {
   border-right: 1px solid #DDD !important;
 }
 
-/* line 428, ../sass/application.scss */
+/* line 446, ../sass/application.scss */
 div.tooltip:hover span.tip {
   border: 1px solid #D9D9D9;
   zoom: 1;
@@ -1091,22 +1106,24 @@ div.tooltip:hover span.tip {
   box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.05);
 }
 
-/* line 435, ../sass/application.scss */
+/* line 453, ../sass/application.scss */
 table.progress td.closed {
   background: #AECCD7 none repeat scroll 0%;
 }
-/* line 438, ../sass/application.scss */
+/* line 456, ../sass/application.scss */
 table.progress td.done {
   background: #EAF2F5 none repeat scroll 0%;
 }
 
-/* line 443, ../sass/application.scss */
+/* line 461, ../sass/application.scss */
 #history div.journal {
-  border-top: 1px solid #DDD;
+  border-bottom: 1px dashed #eee;
+  border-top: 0;
+  margin-bottom: 10px;
 }
 
 /* Modal form*/
-/* line 449, ../sass/application.scss */
+/* line 469, ../sass/application.scss */
 div.modal {
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
@@ -1117,13 +1134,13 @@ div.modal {
   -moz-box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
 }
-/* line 450, ../sass/application.scss */
+/* line 470, ../sass/application.scss */
 div.modal h3.title {
   background: transparent;
   color: inherit;
 }
 
-/* line 460, ../sass/application.scss */
+/* line 480, ../sass/application.scss */
 #modalbg {
   background: white;
   opacity: 0.75;
@@ -1191,12 +1208,12 @@ body.action-login #login-form table {
   font-weight: bold;
 }
 
-/* line 469, ../sass/application.scss */
+/* line 489, ../sass/application.scss */
 div.filters .live_search {
   margin-left: 11px !important;
 }
 
-/* line 473, ../sass/application.scss */
+/* line 493, ../sass/application.scss */
 input.live_search_field {
   -webkit-border-radius: 12px;
   -moz-border-radius: 12px;
@@ -1209,12 +1226,12 @@ input.live_search_field {
   border: 1px solid #C3C3C3;
 }
 
-/* line 481, ../sass/application.scss */
+/* line 501, ../sass/application.scss */
 .live_search input.live_search_field {
   font-size: 12px !important;
 }
 
-/* line 485, ../sass/application.scss */
+/* line 505, ../sass/application.scss */
 label#search_overlabel {
   font-size: 12px !important;
   padding-left: 12px !important;
@@ -1223,42 +1240,42 @@ label#search_overlabel {
   top: 11px !important;
 }
 
-/* line 494, ../sass/application.scss */
+/* line 514, ../sass/application.scss */
 table.contacts.index tbody tr:hover {
   background-color: #EFF5F8 !important;
 }
-/* line 497, ../sass/application.scss */
+/* line 517, ../sass/application.scss */
 table.contacts.index tbody tr.context-menu-selection:hover {
   background-color: #507AAA !important;
 }
 
-/* line 502, ../sass/application.scss */
+/* line 522, ../sass/application.scss */
 h2 span.tag {
   letter-spacing: 0px;
   top: -4px;
   position: relative;
 }
-/* line 506, ../sass/application.scss */
+/* line 526, ../sass/application.scss */
 h2 span.tag a {
   margin-bottom: -1px;
 }
 
-/* line 511, ../sass/application.scss */
+/* line 531, ../sass/application.scss */
 div.filters .live_search {
   letter-spacing: 0px;
 }
 
-/* line 515, ../sass/application.scss */
+/* line 535, ../sass/application.scss */
 label#search_overlabel {
   margin-top: -4px;
 }
 
-/* line 519, ../sass/application.scss */
+/* line 539, ../sass/application.scss */
 .live_search input.live_search_field {
   margin-top: -6px;
 }
 
-/* line 524, ../sass/application.scss */
+/* line 544, ../sass/application.scss */
 span.tag a, span.deal-status {
   color: white;
   text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.25);
@@ -1281,45 +1298,63 @@ span.tag a, span.deal-status {
   -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3);
 }
-/* line 542, ../sass/application.scss */
+/* line 562, ../sass/application.scss */
 span.tag a:hover {
   text-shadow: none;
 }
-/* line 545, ../sass/application.scss */
+/* line 565, ../sass/application.scss */
 span.deal-status a:hover {
   color: black;
   text-shadow: none;
 }
 
-/* line 552, ../sass/application.scss */
+/* line 572, ../sass/application.scss */
 body.controller-contacts #content, body.controller-notes #content, body.controller-contacts_tasks #content, body.controller-contacts_duplicates #content, body.controller-sale_funel #content, body.controller-deals #content {
   margin-right: 340px;
 }
-/* line 555, ../sass/application.scss */
+/* line 575, ../sass/application.scss */
 body.controller-contacts #sidebar, body.controller-notes #sidebar, body.controller-contacts_tasks #sidebar, body.controller-contacts_duplicates #sidebar, body.controller-sale_funel #sidebar, body.controller-deals #sidebar {
   width: 300px !important;
 }
 
-/* line 563, ../sass/application.scss */
+/* line 583, ../sass/application.scss */
 table.invoice-lines tbody tr.line-data:hover {
   background-color: #EFF5F8 !important;
 }
-/* line 566, ../sass/application.scss */
+/* line 586, ../sass/application.scss */
 table.invoice-lines th {
   border: 0px !important;
 }
 
-/* line 572, ../sass/application.scss */
+/* line 592, ../sass/application.scss */
 span.invoice-status.draft {
   background-color: #AAA !important;
 }
-/* line 575, ../sass/application.scss */
+/* line 595, ../sass/application.scss */
 span.invoice-status.sent {
   background-color: #3F8AF7 !important;
 }
-/* line 578, ../sass/application.scss */
+/* line 598, ../sass/application.scss */
 span.invoice-status.paid {
   background-color: green !important;
+}
+
+/* line 605, ../sass/application.scss */
+div#issue-changesets {
+  border-left: 1px solid #eee;
+}
+/* line 608, ../sass/application.scss */
+div#issue-changesets div.changeset {
+  border-bottom: 1px dashed #eee;
+  padding: 15px 10px 5px 10px;
+}
+/* line 612, ../sass/application.scss */
+div#issue-changesets div.changeset.odd {
+  background: #FFFFFF;
+}
+/* line 617, ../sass/application.scss */
+div#issue-changesets div.changeset > p {
+  font-weight: bold;
 }
 
 /* line 2, ../sass/_settings.scss */

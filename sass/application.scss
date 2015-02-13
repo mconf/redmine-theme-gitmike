@@ -258,11 +258,13 @@ a {
 
 div {
   &.issue {
-    background: #FFD;
+    // background: #FFD;
+    background: #FFFFFF;
     padding: 20px;
     margin-bottom: 6px;
     border: 1px solid #ddd;
     margin: -11px -11px 15px -11px;
+    border-bottom-width: 4px;
     &.tooltip {
       padding: 6px;
       margin: 0 0 6px 0;
@@ -271,6 +273,9 @@ div {
   &.contact.details, &.deal.details {
     padding: 15px !important;
     margin: -11px -11px 6px;
+  }
+  hr {
+    background: #eee;
   }
 }
 
@@ -404,8 +409,21 @@ img.gravatar {
 @import 'wiki';
 @import 'projects';
 
-div.journal .details {
-  padding-left: 30px;
+div.journal {
+
+  h4 {
+    margin-bottom: 0;
+
+    img.gravatar {
+      margin-top: 0;
+    }
+  }
+
+  .details {
+    padding-left: 40px;
+    margin-top: 0;
+    list-style-type: none;
+  }
 }
 
 #context-menu {
@@ -441,7 +459,9 @@ table.progress td {
 }
 
 #history div.journal {
-  border-top: 1px solid #DDD;
+  border-bottom: 1px dashed #eee;
+  border-top: 0; //1px solid #DDD;
+  margin-bottom: 10px;
 }
 
 /* Modal form*/
@@ -580,7 +600,26 @@ span.invoice-status {
   }
 }
 
+// Changesets
+
+div#issue-changesets {
+  border-left: 1px solid #eee;
+
+  div.changeset {
+    border-bottom: 1px dashed #eee;
+    padding: 15px 10px 5px 10px;
+
+    &.odd {
+      background: #FFFFFF;
+    }
+
+    // revision and title
+    > p {
+      font-weight: bold;
+    }
+  }
+}
+
 @import 'settings';
 @import 'plugins';
 @import 'store';
-
