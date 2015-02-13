@@ -48,6 +48,7 @@ tt, code, pre {
 
 #top-menu {
   font: $base-font;
+  font-size: 13px;
   padding: 10px 10px 2px 20px;
   background-color: #f3f3f3;
   @include background-image(linear-gradient(#f9f9f9, #f3f3f3));
@@ -338,7 +339,7 @@ h2, h3, h4 {
   margin-right: 0;
   position: relative;
 
-  font-size: 13px;
+  font-size: 14px;
 
   ul {
 
@@ -451,10 +452,10 @@ div.tooltip:hover span.tip {
 
 table.progress td {
   &.closed {
-    background: #AECCD7 none repeat scroll 0%;
+    /* background: #AECCD7 none repeat scroll 0%; */
   }
   &.done {
-    background: #EAF2F5 none repeat scroll 0%;
+    /* background: #EAF2F5 none repeat scroll 0%; */
   }
 }
 
@@ -617,6 +618,16 @@ div#issue-changesets {
     > p {
       font-weight: bold;
     }
+  }
+}
+
+
+// List of issues
+
+table.list {
+  th {
+    background: #F6F6F6;
+    font-size: 13px;
   }
 }
 
