@@ -257,6 +257,12 @@ a {
   }
 }
 
+a.issue {
+  background: #e8f1f6;
+  padding: 2px 4px;
+  border-radius: 3px;
+}
+
 div {
   &.issue {
     // background: #FFD;
